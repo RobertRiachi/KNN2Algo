@@ -5,8 +5,8 @@ def edist(x,y):
 	return distance.euclidean(x,y)
 	
 def Most_Common(lst):
-    data = Counter(lst)
-    return data.most_common(1)[0][0]
+	data = Counter(lst)
+	return data.most_common(1)[0][0]
 
 class KNN():
 	def fit(self, X_train, Y_train):
